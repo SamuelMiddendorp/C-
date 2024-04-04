@@ -1,0 +1,15 @@
+C:\Users\samue\source\repos\CardApp\bin\Debug\net6.0\CardApp.exe
+C:\Users\samue\source\repos\CardApp\bin\Debug\net6.0\CardApp.deps.json
+C:\Users\samue\source\repos\CardApp\bin\Debug\net6.0\CardApp.runtimeconfig.json
+C:\Users\samue\source\repos\CardApp\bin\Debug\net6.0\CardApp.dll
+C:\Users\samue\source\repos\CardApp\bin\Debug\net6.0\CardApp.pdb
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.csproj.AssemblyReference.cache
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.AssemblyInfoInputs.cache
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.AssemblyInfo.cs
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.csproj.CoreCompileInputs.cache
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.dll
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\refint\CardApp.dll
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.pdb
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\CardApp.genruntimeconfig.cache
+C:\Users\samue\source\repos\CardApp\obj\Debug\net6.0\ref\CardApp.dll
