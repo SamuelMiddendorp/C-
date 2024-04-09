@@ -1,10 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
-
-using System.Security.Cryptography.X509Certificates;
-
-public enum CardColor
+﻿public enum CardColor
 {
     Blue,
     Green,
@@ -43,7 +37,7 @@ public class LandCard : Card, IPublisher {
     public IList<ISubscriber> Subscribers = new List<ISubscriber>();
     public CardColor color;
 
-    public Action<Player> Effect;
+    public Action<Player> Effect = (p) => {p.Mana+=1;}
 
     public void Attach(ISubscriber subscriber)
     {
@@ -82,7 +76,7 @@ public class Player : ISubscriber
 {
     public string Name;
 
-    public int Mana;
+    public int Mana = 0;
 
     public int Health = 20;
 
@@ -120,6 +114,16 @@ public class GameState
 // Factory om het creeren van een card en zijn subscribers op 1 plek te doen zodat je dat makkelijker per kaart kan doen.
 public class CardFactory
 {
+    public static LandCard CreateLandCard(IList<ISubscriber> subscribers)
+    {
+        var card = new LandCard();
+        card.Effect = (Player p) => { p.Mana += 1; };
+        foreach(var s in subscribers)
+        {
+            card.Attach(s);
+        }
+        return card;
+    }
     public static LandCard CreateLandCard(IList<ISubscriber> subscribers)
     {
         var card = new LandCard();
